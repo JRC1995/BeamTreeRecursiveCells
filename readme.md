@@ -196,7 +196,7 @@ You can verify if the data is properly set up from the tree below.
 ### Processing Data
 * Go to preprocess/ and run each preprocess files to preprocess the corresponding data (process_SNLI_addon.py must be run after process_SNLI.py; otherwise no order requirement)
 
-We share some of the processed data with its exact splits here (put the processed_data folder in the outermost project directory).
+We share some of the processed data with its exact splits [here](https://drive.google.com/file/d/1RMZSI3lOTC7GoVbl5D7QeK0qOgGNI46X/view?usp=sharing) (put the processed_data folder in the outermost project directory).
 
 ### How to train
 Train:
