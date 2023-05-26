@@ -2,7 +2,6 @@
 
 ### Credits:
 * ```framework, models/layers/geometric, models/layers/ndr_geometric_stack.py``` adapted from: https://github.com/RobertCsordas/ndr
-* CRvNN-related models are adapted from: https://github.com/JRC1995/Continuous-RvNN
 * ```models/encoder/OrderedMemory.py``` adapted from: https://github.com/yikangshen/Ordered-Memory
 * Gumbel-Tree, BT-GRC, and GT-GRC related models are adapted from: https://github.com/jihunchoi/unsupervised-treelstm
 * ```optimizers/ranger.py``` adapted from: https://github.com/anoidgit/transformer/blob/master/optm/ranger.py
