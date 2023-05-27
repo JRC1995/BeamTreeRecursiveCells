@@ -1,0 +1,626 @@
+Training Dataset SST2
+
+BT-GRC (Beam 5)
+
+INPUT TEXT:  i did not like a single minute of this film
+BEAMS:
+Score: 0.26751989126205444, Path: (((((((((i did) not) like) a) single) minute) of) this) film)
+Score: 0.2003631293773651, Path: (i ((((((((did not) like) a) single) minute) of) this) film))
+Score: 0.19725680351257324, Path: (i (did (((((((not like) a) single) minute) of) this) film)))
+Score: 0.17004597187042236, Path: (i ((did ((((((not like) a) single) minute) of) this)) film))
+Score: 0.16481421887874603, Path: ((i did) (not ((((((like a) single) minute) of) this) film)))
+
+
+
+INPUT TEXT:  i shot an elephant in my pajamas
+BEAMS:
+Score: 0.2418227344751358, Path: ((((((i shot) an) elephant) in) my) pajamas)
+Score: 0.2060355246067047, Path: (i (((((shot an) elephant) in) my) pajamas))
+Score: 0.2044321596622467, Path: (i (shot ((((an elephant) in) my) pajamas)))
+Score: 0.1762315332889557, Path: (i ((shot (((an elephant) in) my)) pajamas))
+Score: 0.17147798836231232, Path: ((i shot) (an (((elephant in) my) pajamas)))
+
+
+
+INPUT TEXT:  john saw a man with binoculars
+BEAMS:
+Score: 0.23416312038898468, Path: (((((john saw) a) man) with) binoculars)
+Score: 0.21237672865390778, Path: (john ((((saw a) man) with) binoculars))
+Score: 0.207457035779953, Path: (john (saw (((a man) with) binoculars)))
+Score: 0.17401525378227234, Path: ((john saw) (a ((man with) binoculars)))
+Score: 0.17198792099952698, Path: (john ((saw a) ((man with) binoculars)))
+
+
+
+INPUT TEXT:  roger dodger is one of the most compelling variations of this theme
+BEAMS:
+Score: 0.2745489180088043, Path: (((((((((((roger dodger) is) one) of) the) most) compelling) variations) of) this) theme)
+Score: 0.19166603684425354, Path: (roger ((((((((((dodger is) one) of) the) most) compelling) variations) of) this) theme))
+Score: 0.1886945366859436, Path: (roger (dodger (((((((((is one) of) the) most) compelling) variations) of) this) theme)))
+Score: 0.1772621124982834, Path: ((((((((((roger dodger) is) one) of) the) most) compelling) variations) of) (this theme))
+Score: 0.16782839596271515, Path: ((((((((((roger dodger) is) one) of) the) most) compelling) variations) of) (this theme))
+
+
+BT-GRC (Beam 2)
+
+INPUT TEXT:  i did not like a single minute of this film
+BEAMS:
+Score: 0.5234203934669495, Path: (i ((((((((did not) like) a) single) minute) of) this) film))
+Score: 0.4765796661376953, Path: (((((((((i did) not) like) a) single) minute) of) this) film)
+
+
+
+INPUT TEXT:  i shot an elephant in my pajamas
+BEAMS:
+Score: 0.5126925706863403, Path: (i (((((shot an) elephant) in) my) pajamas))
+Score: 0.4873073995113373, Path: ((((((i shot) an) elephant) in) my) pajamas)
+
+
+
+INPUT TEXT:  john saw a man with binoculars
+BEAMS:
+Score: 0.5097643733024597, Path: (john ((((saw a) man) with) binoculars))
+Score: 0.4902355968952179, Path: (((((john saw) a) man) with) binoculars)
+
+
+
+INPUT TEXT:  roger dodger is one of the most compelling variations of this theme
+BEAMS:
+Score: 0.5292633771896362, Path: (roger ((((((((((dodger is) one) of) the) most) compelling) variations) of) this) theme))
+Score: 0.47073662281036377, Path: (((((((((((roger dodger) is) one) of) the) most) compelling) variations) of) this) theme)
+
+
+BT-GRC + Softpath (Beam 5)
+INPUT TEXT:  i did not like a single minute of this film
+BEAMS:
+Score: 0.2246652990579605, Path: (((((((((i did) not) like) a) single) minute) of) this) film)
+Score: 0.2045600861310959, Path: (i ((((((((did not) like) a) single) minute) of) this) film))
+Score: 0.1982664316892624, Path: (i (did (((((((not like) a) single) minute) of) this) film)))
+Score: 0.18625408411026, Path: ((i did) (((((((not like) a) single) minute) of) this) film))
+Score: 0.18625408411026, Path: ((i did) (not ((((((like a) single) minute) of) this) film)))
+
+
+
+INPUT TEXT:  i shot an elephant in my pajamas
+BEAMS:
+Score: 0.21478219330310822, Path: ((((((i shot) an) elephant) in) my) pajamas)
+Score: 0.20736244320869446, Path: (i (((((shot an) elephant) in) my) pajamas))
+Score: 0.19941850006580353, Path: (i (shot ((((an elephant) in) my) pajamas)))
+Score: 0.1932830661535263, Path: (i ((shot an) (((elephant in) my) pajamas)))
+Score: 0.1851538121700287, Path: ((i shot) ((((an elephant) in) my) pajamas))
+
+
+
+INPUT TEXT:  john saw a man with binoculars
+BEAMS:
+Score: 0.21051207184791565, Path: (((((john saw) a) man) with) binoculars)
+Score: 0.2096913754940033, Path: (john ((((saw a) man) with) binoculars))
+Score: 0.1977577954530716, Path: (john (saw (((a man) with) binoculars)))
+Score: 0.19698680937290192, Path: ((((john saw) a) man) (with binoculars))
+Score: 0.18505197763442993, Path: ((john saw) (((a man) with) binoculars))
+
+
+
+INPUT TEXT:  roger dodger is one of the most compelling variations of this theme
+BEAMS:
+Score: 0.22065217792987823, Path: (((((((((((roger dodger) is) one) of) the) most) compelling) variations) of) this) theme)
+Score: 0.20248182117938995, Path: (roger ((((((((((dodger is) one) of) the) most) compelling) variations) of) this) theme))
+Score: 0.19625210762023926, Path: (roger ((dodger is) ((((((((one of) the) most) compelling) variations) of) this) theme)))
+Score: 0.19625210762023926, Path: (roger (dodger (((((((((is one) of) the) most) compelling) variations) of) this) theme)))
+Score: 0.1843618005514145, Path: ((roger dodger) (((((((((is one) of) the) most) compelling) variations) of) this) theme))
+
+
+BT-GRC + Softpath (Beam 2)
+
+INPUT TEXT:  i did not like a single minute of this film
+BEAMS:
+Score: 0.5578453540802002, Path: (i ((((((((did not) like) a) single) minute) of) this) film))
+Score: 0.4421547055244446, Path: (((((((((i did) not) like) a) single) minute) of) this) film)
+
+
+
+INPUT TEXT:  i shot an elephant in my pajamas
+BEAMS:
+Score: 0.5360700488090515, Path: (i (((((shot an) elephant) in) my) pajamas))
+Score: 0.4639299511909485, Path: ((((((i shot) an) elephant) in) my) pajamas)
+
+
+
+INPUT TEXT:  john saw a man with binoculars
+BEAMS:
+Score: 0.5292633771896362, Path: (john ((((saw a) man) with) binoculars))
+Score: 0.47073662281036377, Path: (((((john saw) a) man) with) binoculars)
+
+
+
+INPUT TEXT:  roger dodger is one of the most compelling variations of this theme
+BEAMS:
+Score: 0.5717666149139404, Path: (roger ((((((((((dodger is) one) of) the) most) compelling) variations) of) this) theme))
+Score: 0.42823338508605957, Path: (((((((((((roger dodger) is) one) of) the) most) compelling) variations) of) this) theme)
+
+
+BT-GRC + Gumbelpath (Beam 5)
+
+INPUT TEXT:  i did not like a single minute of this film
+BEAMS:
+Score: 0.2316853404045105, Path: (((i (did (not (like a)))) (single (minute (of this)))) film)
+Score: 0.21095190942287445, Path: (((i (did (not (like (a single))))) (minute (of this))) film)
+Score: 0.20446158945560455, Path: ((i (did (not (like (a single))))) (minute (of (this film))))
+Score: 0.1847156584262848, Path: (((i did) (not (like (a (single minute))))) (of (this film)))
+Score: 0.1681855320930481, Path: ((((i did) (not (like (a (single minute))))) (of this)) film)
+
+
+
+INPUT TEXT:  i shot an elephant in my pajamas
+BEAMS:
+Score: 0.259428471326828, Path: ((i (shot (an (elephant (in my))))) pajamas)
+Score: 0.22103580832481384, Path: ((i (shot (an (elephant in)))) (my pajamas))
+Score: 0.18685932457447052, Path: ((i (shot (an elephant))) (in (my pajamas)))
+Score: 0.1825307309627533, Path: (((i (shot an)) (elephant (in my))) pajamas)
+Score: 0.15014567971229553, Path: (((i (shot (an elephant))) (in my)) pajamas)
+
+
+
+INPUT TEXT:  john saw a man with binoculars
+BEAMS:
+Score: 0.2602565288543701, Path: ((john (saw (a (man with)))) binoculars)
+Score: 0.2213086634874344, Path: ((john (saw (a man))) (with binoculars))
+Score: 0.18383000791072845, Path: ((john (saw a)) (man (with binoculars)))
+Score: 0.17644265294075012, Path: (john (saw (a (man (with binoculars)))))
+Score: 0.1581621617078781, Path: (((john (saw a)) (man with)) binoculars)
+
+
+
+INPUT TEXT:  roger dodger is one of the most compelling variations of this theme
+BEAMS:
+Score: 0.2352721244096756, Path: ((((roger dodger) (is (one (of (the most))))) (compelling (variations (of this)))) theme)
+Score: 0.23344121873378754, Path: ((roger (dodger (is (one (of the))))) (most (compelling (variations (of (this theme))))))
+Score: 0.21255065500736237, Path: (((roger (dodger (is (one (of the))))) (most (compelling (variations of)))) (this theme))
+Score: 0.16683290898799896, Path: ((((roger dodger) (is (one (of (the most))))) (compelling (variations of))) (this theme))
+Score: 0.15190310776233673, Path: (((roger (dodger (is (one (of the))))) (most (compelling (variations of)))) (this theme))
+
+BT-GRC + Gumbelpath (Beam 2)
+
+INPUT TEXT:  i did not like a single minute of this film
+BEAMS:
+Score: 0.5679365992546082, Path: ((i ((did not) like)) (((a single) (minute of)) (this film)))
+Score: 0.43206340074539185, Path: (((i ((did not) like)) (a single)) ((minute of) (this film)))
+
+
+
+INPUT TEXT:  i shot an elephant in my pajamas
+BEAMS:
+Score: 0.5496405959129333, Path: ((i ((shot an) elephant)) ((in my) pajamas))
+Score: 0.45035937428474426, Path: ((i (shot an)) ((elephant in) (my pajamas)))
+
+
+
+INPUT TEXT:  john saw a man with binoculars
+BEAMS:
+Score: 0.5481898188591003, Path: ((john (saw a)) ((man with) binoculars))
+Score: 0.45181021094322205, Path: ((john ((saw a) man)) (with binoculars))
+
+
+
+INPUT TEXT:  roger dodger is one of the most compelling variations of this theme
+BEAMS:
+Score: 0.5175709128379822, Path: (((roger ((dodger is) one)) ((of the) most)) ((compelling variations) ((of this) theme)))
+Score: 0.4824291169643402, Path: (((roger ((dodger is) one)) ((of the) most)) ((compelling variations) ((of this) theme)))
+
+
+Training Dataset SST5
+
+BT-GRC (Beam 5)
+
+INPUT TEXT:  i did not like a single minute of this film
+BEAMS:
+Score: 0.26143375039100647, Path: ((((((i (((did not) like) a)) single) minute) of) this) film)
+Score: 0.23252399265766144, Path: ((((i ((did (((not like) a) single)) minute)) of) this) film)
+Score: 0.1868382841348648, Path: (i (did ((not ((like (((a single) minute) of)) this)) film)))
+Score: 0.1825101673603058, Path: (((((((((i did) not) like) a) single) minute) of) this) film)
+Score: 0.1366938054561615, Path: (((((i (((did not) like) a)) single) minute) of) (this film))
+
+
+
+INPUT TEXT:  i shot an elephant in my pajamas
+BEAMS:
+Score: 0.24311012029647827, Path: (i (shot (an (elephant ((in my) pajamas)))))
+Score: 0.22222064435482025, Path: ((((((i shot) an) elephant) in) my) pajamas)
+Score: 0.20552049577236176, Path: (i (shot (an (((elephant in) my) pajamas))))
+Score: 0.18567229807376862, Path: (((i (((shot an) elephant) in)) my) pajamas)
+Score: 0.1434764266014099, Path: (i ((shot (((an elephant) in) my)) pajamas))
+
+
+
+INPUT TEXT:  john saw a man with binoculars
+BEAMS:
+Score: 0.24576760828495026, Path: (john (saw (a (man (with binoculars)))))
+Score: 0.21646595001220703, Path: (((((john saw) a) man) with) binoculars)
+Score: 0.21227914094924927, Path: (john (saw (a ((man with) binoculars))))
+Score: 0.18015894293785095, Path: (john (saw (((a man) with) binoculars)))
+Score: 0.1453283727169037, Path: ((john (((saw a) man) with)) binoculars)
+
+
+
+INPUT TEXT:  roger dodger is one of the most compelling variations of this theme
+BEAMS:
+Score: 0.2737761437892914, Path: ((((((roger ((dodger (((is one) of) the)) most)) compelling) variations) of) this) theme)
+Score: 0.22696839272975922, Path: ((((roger ((dodger ((is (((one of) the) most)) compelling)) variations)) of) this) theme)
+Score: 0.22696839272975922, Path: ((((((((roger (((dodger is) one) of)) the) most) compelling) variations) of) this) theme)
+Score: 0.14092788100242615, Path: (((((roger ((dodger (((is one) of) the)) most)) compelling) variations) of) (this theme))
+Score: 0.13135921955108643, Path: (roger (((dodger ((is ((one (((of the) most) compelling)) variations)) of)) this) theme))
+
+
+BT-GRC (Beam 2)
+
+INPUT TEXT:  i did not like a single minute of this film
+BEAMS:
+Score: 0.5253688097000122, Path: ((i (((did not) like) a)) (((single minute) of) (this film)))
+Score: 0.4746311902999878, Path: ((i (((did not) like) a)) (((single minute) of) (this film)))
+
+
+
+INPUT TEXT:  i shot an elephant in my pajamas
+BEAMS:
+Score: 0.5350984334945679, Path: ((i (shot an)) (((elephant in) my) pajamas))
+Score: 0.46490156650543213, Path: (i ((shot an) (((elephant in) my) pajamas)))
+
+
+
+INPUT TEXT:  john saw a man with binoculars
+BEAMS:
+Score: 0.5068355202674866, Path: ((john (saw a)) ((man with) binoculars))
+Score: 0.4931644797325134, Path: (john (((saw a) man) (with binoculars)))
+
+
+
+INPUT TEXT:  roger dodger is one of the most compelling variations of this theme
+BEAMS:
+Score: 0.5156199336051941, Path: ((roger (((dodger is) one) of)) (((the most) (compelling variations)) ((of this) theme)))
+Score: 0.4843800961971283, Path: ((roger (((dodger is) one) of)) (((the most) (compelling variations)) ((of this) theme)))
+
+BT-GRC + Softpath (Beam 5)
+INPUT TEXT:  i did not like a single minute of this film
+BEAMS:
+Score: 0.23597608506679535, Path: ((((i ((did ((not (like a)) single)) minute)) of) this) film)
+Score: 0.21824219822883606, Path: ((i ((did ((not ((like (a single)) minute)) of)) this)) film)
+Score: 0.1881365329027176, Path: (((i (((did ((not (like a)) single)) minute) of)) this) film)
+Score: 0.17952114343643188, Path: (i ((did (((not ((like (a single)) minute)) of) this)) film))
+Score: 0.1781240850687027, Path: (i (((did ((not ((like (a single)) minute)) of)) this) film))
+
+
+
+INPUT TEXT:  i shot an elephant in my pajamas
+BEAMS:
+Score: 0.22938117384910583, Path: (((i ((shot (an elephant)) in)) my) pajamas)
+Score: 0.21973370015621185, Path: (i ((shot ((an (elephant in)) my)) pajamas))
+Score: 0.19773893058300018, Path: (i (shot (an ((elephant (in my)) pajamas))))
+Score: 0.17864224314689636, Path: (((((i (shot an)) elephant) in) my) pajamas)
+Score: 0.17450399696826935, Path: ((i shot) (an ((elephant (in my)) pajamas)))
+
+
+
+INPUT TEXT:  john saw a man with binoculars
+BEAMS:
+Score: 0.23467928171157837, Path: (john (saw ((a (man with)) binoculars)))
+Score: 0.2161966860294342, Path: ((((john (saw a)) man) with) binoculars)
+Score: 0.2103651463985443, Path: ((john ((saw (a man)) with)) binoculars)
+Score: 0.1716950237751007, Path: (john (((saw (a man)) with) binoculars))
+Score: 0.1670638620853424, Path: (((john (saw a)) man) (with binoculars))
+
+
+
+INPUT TEXT:  roger dodger is one of the most compelling variations of this theme
+BEAMS:
+Score: 0.2495180368423462, Path: ((((roger ((dodger ((is ((one (of the)) most)) compelling)) variations)) of) this) theme)
+Score: 0.20049338042736053, Path: (((roger (((dodger ((is ((one (of the)) most)) compelling)) variations) of)) this) theme)
+Score: 0.19584894180297852, Path: (((roger ((dodger (((is ((one (of the)) most)) compelling) variations)) of)) this) theme)
+Score: 0.18398307263851166, Path: (((roger ((dodger ((is ((one (of the)) most)) compelling)) variations)) of) (this theme))
+Score: 0.17015652358531952, Path: ((((((roger ((dodger ((is (one of)) the)) most)) compelling) variations) of) this) theme)
+
+BT-GRC + Softpath (Beam 2)
+INPUT TEXT:  i did not like a single minute of this film
+BEAMS:
+Score: 0.6095241904258728, Path: (i ((((((((did not) like) a) single) minute) of) this) film))
+Score: 0.3904758393764496, Path: (i ((((((did not) like) a) single) minute) ((of this) film)))
+
+
+
+INPUT TEXT:  i shot an elephant in my pajamas
+BEAMS:
+Score: 0.6442251205444336, Path: (i (((((shot an) elephant) in) my) pajamas))
+Score: 0.3557748794555664, Path: ((i (((shot an) elephant) in)) (my pajamas))
+
+
+
+INPUT TEXT:  john saw a man with binoculars
+BEAMS:
+Score: 0.6071974039077759, Path: (john ((((saw a) man) with) binoculars))
+Score: 0.39280256628990173, Path: (((((john saw) a) man) with) binoculars)
+
+
+
+INPUT TEXT:  roger dodger is one of the most compelling variations of this theme
+BEAMS:
+Score: 0.562176525592804, Path: (roger ((((((((((dodger is) one) of) the) most) compelling) variations) of) this) theme))
+Score: 0.43782350420951843, Path: ((roger (((((dodger is) one) of) the) most)) ((((compelling variations) of) this) theme))
+
+
+BT-GRC + Gumbelpath (Beam 5)
+INPUT TEXT:  i did not like a single minute of this film
+BEAMS:
+Score: 0.24262578785419464, Path: ((((i ((did ((not (like a)) single)) minute)) of) this) film)
+Score: 0.20272143185138702, Path: (((i (((did ((not (like a)) single)) minute) of)) this) film)
+Score: 0.1980254054069519, Path: (((i ((did (((not (like a)) single) minute)) of)) this) film)
+Score: 0.1845799684524536, Path: ((((((i ((did (not like)) a)) single) minute) of) this) film)
+Score: 0.1720474362373352, Path: ((i ((did ((not ((like (a single)) minute)) of)) this)) film)
+
+
+
+INPUT TEXT:  i shot an elephant in my pajamas
+BEAMS:
+Score: 0.21346761286258698, Path: (((i ((shot (an elephant)) in)) my) pajamas)
+Score: 0.21263539791107178, Path: (i (shot (an ((elephant (in my)) pajamas))))
+Score: 0.203692227602005, Path: (((((i (shot an)) elephant) in) my) pajamas)
+Score: 0.18546389043331146, Path: (i (shot (((an (elephant in)) my) pajamas)))
+Score: 0.1847408264875412, Path: (i ((shot ((an (elephant in)) my)) pajamas))
+
+
+
+INPUT TEXT:  john saw a man with binoculars
+BEAMS:
+Score: 0.23421074450016022, Path: ((((john (saw a)) man) with) binoculars)
+Score: 0.22700482606887817, Path: (john (saw ((a (man with)) binoculars)))
+Score: 0.18311740458011627, Path: ((john ((saw (a man)) with)) binoculars)
+Score: 0.17887550592422485, Path: ((((john saw) (a man)) with) binoculars)
+Score: 0.17679153382778168, Path: (john (saw (a (man (with binoculars)))))
+
+
+
+INPUT TEXT:  roger dodger is one of the most compelling variations of this theme
+BEAMS:
+Score: 0.231520414352417, Path: ((((roger ((dodger ((is ((one (of the)) most)) compelling)) variations)) of) this) theme)
+Score: 0.20114842057228088, Path: (((((roger (((dodger ((is (one of)) the)) most) compelling)) variations) of) this) theme)
+Score: 0.19648884236812592, Path: (((((roger ((dodger (((is (one of)) the) most)) compelling)) variations) of) this) theme)
+Score: 0.1919371783733368, Path: (((roger (((dodger ((is ((one (of the)) most)) compelling)) variations) of)) this) theme)
+Score: 0.17890511453151703, Path: ((((((roger ((dodger ((is (one of)) the)) most)) compelling) variations) of) this) theme)
+
+BT-GRC + Gumbelpath (Beam 2)
+
+INPUT TEXT:  i did not like a single minute of this film
+BEAMS:
+Score: 0.5039061903953552, Path: ((i (((did not) like) a)) (((single minute) of) (this film)))
+Score: 0.49609383940696716, Path: ((i ((did not) like)) (((a single) minute) ((of this) film)))
+
+
+
+INPUT TEXT:  i shot an elephant in my pajamas
+BEAMS:
+Score: 0.5029296278953552, Path: ((i ((shot an) elephant)) ((in my) pajamas))
+Score: 0.4970703423023224, Path: (i (((shot an) elephant) ((in my) pajamas)))
+
+
+
+INPUT TEXT:  john saw a man with binoculars
+BEAMS:
+Score: 0.5117166042327881, Path: (john (((saw a) man) (with binoculars)))
+Score: 0.4882833957672119, Path: (john ((((saw a) man) with) binoculars))
+
+
+
+INPUT TEXT:  roger dodger is one of the most compelling variations of this theme
+BEAMS:
+Score: 0.5, Path: ((roger (((dodger is) one) of)) (((the most) compelling) (((variations of) this) theme)))
+Score: 0.5, Path: ((roger (((dodger is) one) of)) (((the most) compelling) (((variations of) this) theme)))
+
+
+
+INPUT TEXT:  recursive neural networks can compose sequences according to their underlying hierarchical syntactic structures
+BEAMS:
+Score: 0.5195213556289673, Path: ((recursive (((neural networks) can) compose)) ((((sequences according) to) their) (((underlying hierarchical) syntactic) structures)))
+Score: 0.4804786741733551, Path: ((recursive (((neural networks) can) compose)) (((sequences according) to) (((their underlying) hierarchical) (syntactic structures))))
+
+
+Training Dataset IMDB
+
+BT-GRC (Beam 5)
+INPUT TEXT:  i did not like a single minute of this film
+BEAMS:
+Score: 0.22977915406227112, Path: (((((i (did (not (like (a single))))) minute) of) this) film)
+Score: 0.20436981320381165, Path: ((((i ((did (not (like (a single)))) minute)) of) this) film)
+Score: 0.19654053449630737, Path: ((((i (did (not (like (a single))))) minute) of) (this film))
+Score: 0.18754027783870697, Path: ((((i (did (not (like (a single))))) minute) (of this)) film)
+Score: 0.18177028000354767, Path: (((i (did (not (like (a single))))) minute) (of (this film)))
+
+
+
+INPUT TEXT:  i shot an elephant in my pajamas
+BEAMS:
+Score: 0.2250823825597763, Path: (((i (shot (an (elephant in)))) my) pajamas)
+Score: 0.22246010601520538, Path: ((i (shot (an (elephant (in my))))) pajamas)
+Score: 0.20255222916603088, Path: ((((i (shot (an elephant))) in) my) pajamas)
+Score: 0.17529433965682983, Path: ((i ((shot (an (elephant in))) my)) pajamas)
+Score: 0.1746109426021576, Path: (((((i (shot an)) elephant) in) my) pajamas)
+
+
+
+INPUT TEXT:  john saw a man with binoculars
+BEAMS:
+Score: 0.24955233931541443, Path: (john (saw (a (man (with binoculars)))))
+Score: 0.20052093267440796, Path: (((john (saw (a man))) with) binoculars)
+Score: 0.19896046817302704, Path: ((john (saw (a (man with)))) binoculars)
+Score: 0.18472854793071747, Path: ((((john (saw a)) man) with) binoculars)
+Score: 0.1662377119064331, Path: (((((john saw) a) man) with) binoculars)
+
+
+
+INPUT TEXT:  roger dodger is one of the most compelling variations of this theme
+BEAMS:
+Score: 0.22003425657749176, Path: (((roger (dodger (is (one (of the))))) most) (compelling (variations (of (this theme)))))
+Score: 0.20034347474575043, Path: (((((((roger (dodger (is (one (of the))))) most) compelling) variations) of) this) theme)
+Score: 0.19723743200302124, Path: ((((roger (dodger (is (one (of the))))) most) compelling) (variations (of (this theme))))
+Score: 0.19417954981327057, Path: ((((((roger ((dodger (is (one (of the)))) most)) compelling) variations) of) this) theme)
+Score: 0.188205286860466, Path: ((((((roger (dodger (is (one (of the))))) most) (compelling variations)) of) this) theme)
+
+BT-GRC (Beam 2)
+
+INPUT TEXT:  i did not like a single minute of this film
+BEAMS:
+Score: 0.5097643733024597, Path: (i (((((did not) like) (a single)) (minute of)) (this film)))
+Score: 0.4902355968952179, Path: (i ((((did not) like) ((a single) minute)) ((of this) film)))
+
+
+
+INPUT TEXT:  i shot an elephant in my pajamas
+BEAMS:
+Score: 0.5126925706863403, Path: (i (((shot an) elephant) ((in my) pajamas)))
+Score: 0.4873073995113373, Path: ((i ((shot an) elephant)) ((in my) pajamas))
+
+
+
+INPUT TEXT:  john saw a man with binoculars
+BEAMS:
+Score: 0.5087881684303284, Path: (john (((saw a) man) (with binoculars)))
+Score: 0.491211861371994, Path: ((john (saw a)) ((man with) binoculars))
+
+
+
+INPUT TEXT:  roger dodger is one of the most compelling variations of this theme
+BEAMS:
+Score: 0.5, Path: (roger ((((dodger is) one) ((of the) most)) (((compelling variations) of) (this theme))))
+Score: 0.5, Path: (roger ((((dodger is) one) ((of the) most)) (((compelling variations) of) (this theme))))
+
+
+BT-GRC + Softpath (Beam 5)
+INPUT TEXT:  i did not like a single minute of this film
+BEAMS:
+Score: 0.2307349145412445, Path: (i ((((((((did not) like) a) single) minute) of) this) film))
+Score: 0.21008653938770294, Path: ((i did) (((((((not like) a) single) minute) of) this) film))
+Score: 0.18979737162590027, Path: (((i did) not) ((((((like a) single) minute) of) this) film))
+Score: 0.18685483932495117, Path: (i (((did not) like) (((((a single) minute) of) this) film)))
+Score: 0.1825263500213623, Path: (i (did (((((((not like) a) single) minute) of) this) film)))
+
+
+
+INPUT TEXT:  i shot an elephant in my pajamas
+BEAMS:
+Score: 0.2206026017665863, Path: (i (((((shot an) elephant) in) my) pajamas))
+Score: 0.20723696053028107, Path: ((i shot) ((((an elephant) in) my) pajamas))
+Score: 0.1969759613275528, Path: (((i shot) an) (((elephant in) my) pajamas))
+Score: 0.1886914074420929, Path: (i ((shot an) (((elephant in) my) pajamas)))
+Score: 0.18649308383464813, Path: ((i (shot an)) (((elephant in) my) pajamas))
+
+
+
+INPUT TEXT:  john saw a man with binoculars
+BEAMS:
+Score: 0.21802182495594025, Path: (john ((((saw a) man) with) binoculars))
+Score: 0.20803789794445038, Path: ((john saw) (((a man) with) binoculars))
+Score: 0.20242640376091003, Path: (((john saw) a) ((man with) binoculars))
+Score: 0.18575690686702728, Path: ((john saw) ((a man) (with binoculars)))
+Score: 0.18575690686702728, Path: (((john saw) (a man)) (with binoculars))
+
+
+
+INPUT TEXT:  roger dodger is one of the most compelling variations of this theme
+BEAMS:
+Score: 0.23621875047683716, Path: (roger ((((((((((dodger is) one) of) the) most) compelling) variations) of) this) theme))
+Score: 0.21174512803554535, Path: ((roger dodger) (((((((((is one) of) the) most) compelling) variations) of) this) theme))
+Score: 0.18686442077159882, Path: (((roger dodger) is) ((((((((one of) the) most) compelling) variations) of) this) theme))
+Score: 0.18686442077159882, Path: (roger (dodger (((((((((is one) of) the) most) compelling) variations) of) this) theme)))
+Score: 0.17830726504325867, Path: (roger ((dodger is) ((((((((one of) the) most) compelling) variations) of) this) theme)))
+
+BT-GRC + Softpath (Beam 2)
+
+INPUT TEXT:  i did not like a single minute of this film
+BEAMS:
+Score: 0.5736784338951111, Path: (((((((((i did) not) like) a) single) minute) of) this) film)
+Score: 0.4263215959072113, Path: (i ((((((((did not) like) a) single) minute) of) this) film))
+
+
+
+INPUT TEXT:  i shot an elephant in my pajamas
+BEAMS:
+Score: 0.5457699298858643, Path: ((((((i shot) an) elephant) in) my) pajamas)
+Score: 0.45423004031181335, Path: (i (((((shot an) elephant) in) my) pajamas))
+
+
+
+INPUT TEXT:  john saw a man with binoculars
+BEAMS:
+Score: 0.5331543684005737, Path: (((((john saw) a) man) with) binoculars)
+Score: 0.4668456017971039, Path: (john ((((saw a) man) with) binoculars))
+
+
+
+INPUT TEXT:  roger dodger is one of the most compelling variations of this theme
+BEAMS:
+Score: 0.5869964361190796, Path: (((((((((((roger dodger) is) one) of) the) most) compelling) variations) of) this) theme)
+Score: 0.4130035638809204, Path: (roger ((((((((((dodger is) one) of) the) most) compelling) variations) of) this) theme))
+
+
+BT-GRC + Gumbelpath (Beam 5)
+INPUT TEXT:  i did not like a single minute of this film
+BEAMS:
+Score: 0.2043849378824234, Path: (((((((((i did) not) like) a) single) minute) of) this) film)
+Score: 0.2027944028377533, Path: ((((((((i (did not)) like) a) single) minute) of) this) film)
+Score: 0.20121625065803528, Path: (((((((i (did (not like))) a) single) minute) of) this) film)
+Score: 0.19809667766094208, Path: ((((((i (did (not (like a)))) single) minute) of) this) film)
+Score: 0.19350777566432953, Path: (((((i (did (not (like (a single))))) minute) of) this) film)
+
+
+
+INPUT TEXT:  i shot an elephant in my pajamas
+BEAMS:
+Score: 0.21316061913967133, Path: ((((((i shot) an) elephant) in) my) pajamas)
+Score: 0.20985588431358337, Path: (((((i (shot an)) elephant) in) my) pajamas)
+Score: 0.20339930057525635, Path: ((((i (shot (an elephant))) in) my) pajamas)
+Score: 0.19408495724201202, Path: (((i (shot (an (elephant in)))) my) pajamas)
+Score: 0.17949925363063812, Path: ((i (shot (an (elephant (in my))))) pajamas)
+
+
+
+INPUT TEXT:  john saw a man with binoculars
+BEAMS:
+Score: 0.2111203372478485, Path: (john (saw (a (man (with binoculars)))))
+Score: 0.20703689754009247, Path: (((((john saw) a) man) with) binoculars)
+Score: 0.20382709801197052, Path: ((((john (saw a)) man) with) binoculars)
+Score: 0.19601857662200928, Path: (((john (saw (a man))) with) binoculars)
+Score: 0.18199710547924042, Path: ((john (saw (a (man with)))) binoculars)
+
+
+
+INPUT TEXT:  roger dodger is one of the most compelling variations of this theme
+BEAMS:
+Score: 0.20124800503253937, Path: (((((((((((roger dodger) is) one) of) the) most) compelling) variations) of) this) theme)
+Score: 0.20124800503253937, Path: (((((((((roger (dodger (is one))) of) the) most) compelling) variations) of) this) theme)
+Score: 0.20124800503253937, Path: ((((((((((roger (dodger is)) one) of) the) most) compelling) variations) of) this) theme)
+Score: 0.19812795519828796, Path: ((((((((roger (dodger (is (one of)))) the) most) compelling) variations) of) this) theme)
+Score: 0.19812795519828796, Path: (((((((roger (dodger (is (one (of the))))) most) compelling) variations) of) this) theme)
+
+BT-GRC + Gumbelpath (Beam 2)
+INPUT TEXT:  i did not like a single minute of this film
+BEAMS:
+Score: 0.5175709128379822, Path: ((((i (did not)) (like a)) (single (minute of))) (this film))
+Score: 0.4824291169643402, Path: ((((i (did not)) (like a)) ((single (minute of)) this)) film)
+
+
+
+INPUT TEXT:  i shot an elephant in my pajamas
+BEAMS:
+Score: 0.5117166042327881, Path: (((i (shot an)) (elephant in)) (my pajamas))
+Score: 0.4882833957672119, Path: ((((i (shot an)) elephant) (in my)) pajamas)
+
+
+
+INPUT TEXT:  john saw a man with binoculars
+BEAMS:
+Score: 0.5029296278953552, Path: (((john (saw a)) (man with)) binoculars)
+Score: 0.4970703423023224, Path: (((john (saw a)) man) (with binoculars))
+
+
+
+INPUT TEXT:  roger dodger is one of the most compelling variations of this theme
+BEAMS:
+Score: 0.5039061903953552, Path: ((((roger (dodger is)) (one of)) (the (most compelling))) ((variations (of this)) theme))
+Score: 0.49609383940696716, Path: (((((roger (dodger is)) (one of)) (the (most compelling))) (variations (of this))) theme)
