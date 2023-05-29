@@ -15,6 +15,7 @@
 * ninja==1.10.2
 * typing-extensions==4.5.0
 * psutil==5.8.0
+* tensorflow-datasets==4.5.2
 
 ### Data Setup
 * Put the Logical Inference data files (train0,train1,train2,.....test12) (downloaded from https://github.com/yikangshen/Ordered-Memory/tree/master/data/propositionallogic) in data/proplogic/
