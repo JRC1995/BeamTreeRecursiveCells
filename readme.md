@@ -1,5 +1,7 @@
 ## Official Code for Beam Tree Recursive Cells (ICML 2023)
 
+[ArXiv Link](https://arxiv.org/abs/2305.19999)
+
 ### Credits:
 * ```framework, models/layers/geometric, models/layers/ndr_geometric_stack.py``` adapted from: https://github.com/RobertCsordas/ndr
 * ```models/encoder/OrderedMemory.py``` adapted from: https://github.com/yikangshen/Ordered-Memory
