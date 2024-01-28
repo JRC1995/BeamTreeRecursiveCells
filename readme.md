@@ -2,6 +2,8 @@
 
 [ArXiv Link](https://arxiv.org/abs/2305.19999)
 
+For an extended repo see: https://github.com/JRC1995/BeamRecursionFamily/tree/main
+
 ### Credits:
 * ```framework, models/layers/geometric, models/layers/ndr_geometric_stack.py``` adapted from: https://github.com/RobertCsordas/ndr
 * ```models/encoder/OrderedMemory.py``` adapted from: https://github.com/yikangshen/Ordered-Memory
@@ -106,5 +108,6 @@ The model nomenclature in the codebase and in the paper are a bit different. We 
 }
 ```
 Contact the associated github email for any question or issue. 
+
 
 
